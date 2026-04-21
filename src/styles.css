@@ -1,0 +1,26 @@
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 900px;
+  margin-top: 30px;
+}
+
+.task-item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .task-item {
+    text-align: center;
+  }
+}
